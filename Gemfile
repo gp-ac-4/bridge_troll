@@ -36,7 +36,7 @@ gem 'puma'
 gem 'pundit'
 gem 'rack-canonical-host'
 gem 'rack-cors'
-gem 'rack-mini-profiler', require: ['prepend_net_http_patch']
+gem 'rack-mini-profiler', '>= 4.0.1', require: ['prepend_net_http_patch']
 gem 'rails', '~> 8.0.0'
 gem 'rails-backbone'
 gem 'sanitize'
