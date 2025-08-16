@@ -37,7 +37,7 @@ gem 'pundit'
 gem 'rack-canonical-host'
 gem 'rack-cors'
 gem 'rack-mini-profiler', require: ['prepend_net_http_patch']
-gem 'rails', '~> 8.0.0'
+gem 'rails', '~> 8.0.2', '>= 8.0.2.1'
 gem 'rails-backbone'
 gem 'sanitize'
 gem 'sassc-rails'
@@ -74,10 +74,10 @@ group :test, :development do
   gem 'pry'
   gem 'rails-controller-testing', require: false
   gem 'rspec-collection_matchers'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.2'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop-rails', '>= 2.33.0', require: false
   gem 'rubocop-rake', require: false
   gem 'rubocop-rspec', require: false
   gem 'rubocop-thread_safety', require: false
