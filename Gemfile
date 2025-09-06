@@ -94,7 +94,7 @@ group :test do
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'database_cleaner'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.5.1'
   gem 'faker'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
