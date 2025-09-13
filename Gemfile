@@ -53,7 +53,7 @@ gem 'pg'
 group :production do
   gem 'newrelic_rpm'
   gem 'rack-timeout'
-  gem 'sentry-rails'
+  gem 'sentry-rails', '>= 5.27.0'
   gem 'sentry-ruby'
 end
 
