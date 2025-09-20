@@ -96,9 +96,9 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_bot_rails'
   gem 'faker'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 4.35.0'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
-  gem 'simplecov-cobertura', require: false
+  gem 'simplecov-cobertura', '>= 3.1.0', require: false
   gem 'webmock'
 end
