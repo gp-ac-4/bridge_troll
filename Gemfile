@@ -9,7 +9,7 @@ ruby File.read('.ruby-version').chomp
 gem 'benchmark'
 gem 'reline'
 
-gem 'active_hash'
+gem 'active_hash', '>= 4.0.0'
 gem 'rake', require: false
 # OPTIMIZE: and cache expensive computations for faster boot times. It's
 # `require`d in a specific way in config/boot.rb
@@ -27,17 +27,17 @@ gem 'jquery-ui-rails'
 gem 'nearest_time_zone'
 gem 'nested_form'
 gem 'omniauth-facebook'
-gem 'omniauth-github'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-github', '>= 2.0.0'
+gem 'omniauth-google-oauth2', '>= 0.8.1'
 gem 'omniauth-meetup'
-gem 'omniauth-rails_csrf_protection'
+gem 'omniauth-rails_csrf_protection', '>= 1.0.0'
 gem 'omniauth-twitter'
 gem 'puma'
-gem 'pundit'
+gem 'pundit', '>= 2.5.1'
 gem 'rack-canonical-host'
-gem 'rack-cors'
-gem 'rack-mini-profiler', require: ['prepend_net_http_patch']
-gem 'rails', '~> 8.0.0'
+gem 'rack-cors', '>= 3.0.0'
+gem 'rack-mini-profiler', '>= 4.0.1', require: ['prepend_net_http_patch']
+gem 'rails', '~> 8.0.2', '>= 8.0.2.1'
 gem 'rails-backbone'
 gem 'sanitize'
 gem 'sassc-rails'
@@ -53,7 +53,7 @@ gem 'pg'
 group :production do
   gem 'newrelic_rpm'
   gem 'rack-timeout'
-  gem 'sentry-rails'
+  gem 'sentry-rails', '>= 5.27.0'
   gem 'sentry-ruby'
 end
 
@@ -74,10 +74,10 @@ group :test, :development do
   gem 'pry'
   gem 'rails-controller-testing', require: false
   gem 'rspec-collection_matchers'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.2'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
+  gem 'rubocop-rails', '>= 2.33.0', require: false
   gem 'rubocop-rake', require: false
   gem 'rubocop-rspec', require: false
   gem 'rubocop-thread_safety', require: false
@@ -94,7 +94,7 @@ group :test do
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'database_cleaner'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.5.1'
   gem 'faker'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
