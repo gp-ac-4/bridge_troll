@@ -100,5 +100,5 @@ group :test do
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
   gem 'simplecov-cobertura', require: false
-  gem 'webmock'
+  gem 'webmock', '>= 3.25.2'
 end
