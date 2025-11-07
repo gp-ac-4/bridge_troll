@@ -97,7 +97,7 @@ group :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'selenium-webdriver'
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '>= 7.0.1'
   gem 'simplecov', require: false
   gem 'simplecov-cobertura', require: false
   gem 'webmock'
