@@ -69,7 +69,7 @@ end
 group :test, :development do
   gem 'awesome_print'
   gem 'byebug'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 3.2.0'
   gem 'parallel_tests'
   gem 'pry'
   gem 'rails-controller-testing', require: false
