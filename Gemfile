@@ -16,7 +16,7 @@ gem 'rake', require: false
 gem 'bootsnap', require: false
 gem 'bootstrap-sass'
 gem 'coffee-rails'
-gem 'devise'
+gem 'devise', '>= 5.0.0'
 gem 'font-awesome-rails'
 gem 'geocoder'
 gem 'gmaps4rails'
